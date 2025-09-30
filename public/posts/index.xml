@@ -2,25 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on 0xBlogs</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on 0xBlogs</description>
     <image>
       <title>0xBlogs</title>
-      <url>http://localhost:1313/images/cover-dark.png</url>
-      <link>http://localhost:1313/images/cover-dark.png</link>
+      <url>https://example.org/images/cover-dark.png</url>
+      <link>https://example.org/images/cover-dark.png</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Tue, 30 Sep 2025 13:05:12 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ArchAndUbuntu</title>
-      <link>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
-      <pubDate>Tue, 30 Sep 2025 13:05:12 +0530</pubDate>
-      <guid>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
-      <description>&lt;p&gt;Listen up, fam. We need to talk about my operating system journey. I started on Ubuntu, and honestly, &lt;strong&gt;no shade&lt;/strong&gt;. It&amp;rsquo;s the ultimate soft launch into the Linux world. But now? I&amp;rsquo;m firmly in my &lt;strong&gt;Arch Linux&lt;/strong&gt; era, and the vibes are just&amp;hellip; &lt;em&gt;chef&amp;rsquo;s kiss&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;This isn&amp;rsquo;t a &amp;ldquo;flex culture&amp;rdquo; post. It&amp;rsquo;s about recognizing what each distro &lt;em&gt;slays&lt;/em&gt; at, and why I made the switch from a stable icon to the ultimate DIY challenge.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

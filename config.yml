@@ -63,6 +63,7 @@ params:
   description: "Bet, this is my Daily Grind Log—a clean, fast site where I drop all my knowledge and tech notes. No cap, the goal is to turn my daily learnings into a fully searchable brain dump, straight up."
   author: Ashish Kushwaha
   defaultTheme: auto
+  disableThemeToggle: false
   ShowShareButtons: true
   ShowReadingTime: true
   ShowPostNavLinks: true
@@ -72,6 +73,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  TocOpen: false
   hideFooter: true
   imageUrl: "images/cover-dark.png" # path inside static/images/
 
@@ -115,7 +117,7 @@ params:
       url: "mailto:ashish.kus2408@gmail.com"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    URL: "https://github.com/ashish-kus/0xBlogs/tree/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

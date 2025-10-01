@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/0xBlogs/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/posts/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/posts/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/categories/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/search/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/series/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/0xBlogs/tags/</loc>
+    <loc>https://ashish-kus.github.io/0xBlogs/tags/</loc>
   </url>
 </urlset>

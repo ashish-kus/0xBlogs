@@ -46,21 +46,21 @@ languages:
       main:
         - name: Search
           url: search/
-          weight: 10
+          weight: 50
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 50
         - name: Categories
           url: /categories/
-          weight: 15
-        - name: Archive
-          url: archives
-          weight: 5
+          weight: 50
+#        - name: Archive
+#          url: archives
+#          weight: 5
 
 # theme related extra options
 params:
   env: development # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Bet, this is my Daily Grind Log—a clean, fast site where I drop all my knowledge and tech notes. No cap, the goal is to turn my daily learnings into a fully searchable brain dump, straight up."
+  description: "0xBlogs - Ashish Kushwaha Bet, this is my Daily Grind Log—a clean, fast site where I drop all my knowledge and tech notes. No cap, the goal is to turn my daily learnings into a fully searchable brain dump, straight up."
   author: Ashish Kushwaha
   defaultTheme: auto
   disableThemeToggle: false

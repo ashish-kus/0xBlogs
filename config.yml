@@ -93,7 +93,6 @@ params:
     Title: "Ashish Kushwaha"
     Content: >
       - A software engineering post-graduate and technology writer. I build open-source projects, explore Linux & cloud technologies, and share deep-dive blogs on tech.
-
       - Obsessed with Linux and cloud tech, I share deep dives into OS, tools, tutorials, cloud tricks, and the occasional algorithm adventure.
 
       - This isn’t a polished “blog hub”—it’s my open notebook: raw notes, daily experiments, and lessons learned.
@@ -101,13 +100,13 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      url: "https://github.com/ashish-kus"
     - name: Linkedin
       title: Connect me on Linkedin
       url: "https://www.linkedin.com/in/ashish-kushwaha2408/"
-    #    - name: X
-    #      title: Share ashish-kus on X/Twitter
-    #      url: "https://x.com/AshishKus2408"
+    - name: X
+      title: Share ashish-kus on X/Twitter
+      url: "https://x.com/AshishKus2408"
     - name: Telegram
       title: Share you thoughts on Telegram
       url: "https://t.me/ashishk2408"

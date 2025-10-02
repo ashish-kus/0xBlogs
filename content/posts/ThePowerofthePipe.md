@@ -3,6 +3,8 @@ date = '2025-10-01T01:16:51+05:30'
 draft = false
 title = 'The Power of the Pipe: Chaining Linux Commands for Efficiency'
 slug = 'a2cc786af0d345abcacce0e9c5097a6a'   # or any unique identifier
+categories = ["Thoughts"]
+tags = ["arch", "ubuntu"]
 +++
 
 One of the most powerful and elegant features of the Linux command line is the **pipe**, represented by the vertical bar: `|`.

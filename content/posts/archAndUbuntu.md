@@ -3,6 +3,8 @@ date = '2025-09-30T13:05:12+05:30'
 draft = false
 title = 'Why Arch Is My Main Character Energy (But Ubuntu is Still the GOAT Starter Pack)'
 slug = 'ffd8bd1512001a08fb1f9279a6caaab6'   # or any unique identifier
+categories = ["Thoughts"]
+tags = ["arch", "ubuntu"]
 [cover]
   image = "images/1.1.png" # path to image in "static/images/"
   alt = "Cover image description"

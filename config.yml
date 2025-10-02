@@ -24,6 +24,8 @@ pagination:
 outputs:
   home:
     - HTML
+    - RSS
+    - JSON
   section:
     - HTML
   taxonomy:

@@ -9,6 +9,6 @@ rm -rf public/
 
 # Build the Hugo site
 echo "Building Hugo site..."
-hugo --baseURL "https://ashish-kus.github.io/0xBlogs/"
+hugo --baseURL "https://0xblogs.ashishkus.com"
 
 echo "Build complete! The site is ready in public/."

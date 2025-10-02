@@ -14,7 +14,8 @@ hugo --baseURL "https://0xblogs.ashishkus.com"
 # Add custom domain (CNAME) file
 echo "0xblogs.ashishkus.com" >public/CNAME
 
-# Copy build to docs/ for GitHub Pages
-cp -r public/ docs/
+# Copy contents of public/ into docs/
+mkdir -p docs
+cp -r public/. docs/
 
-echo "✅ Build complete! The site is ready in docs/ and public/."
+echo "✅ Build complete! The site is ready in docs/ (for GitHub Pages)."

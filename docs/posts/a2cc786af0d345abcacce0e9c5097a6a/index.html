@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>The Power of the Pipe: Chaining Linux Commands for Efficiency | 0xBlogs</title>
-<meta name="keywords" content="arch, ubuntu">
+<meta name="keywords" content="pipe, cli, command">
 <meta name="description" content="One of the most powerful and elegant features of the Linux command line is the pipe, represented by the vertical bar: |.
 It looks simple, but this little symbol is the secret weapon for turning a handful of small, simple commands into a single, powerful tool.
 What Does the Pipe (|) Do?
@@ -69,8 +69,9 @@ What Does the Pipe (|) Do? In the simplest terms, the pipe takes the output of o
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-01T01:16:51+05:30">
     <meta property="article:modified_time" content="2025-10-01T01:16:51+05:30">
-    <meta property="article:tag" content="Arch">
-    <meta property="article:tag" content="Ubuntu">
+    <meta property="article:tag" content="Pipe">
+    <meta property="article:tag" content="Cli">
+    <meta property="article:tag" content="Command">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Power of the Pipe: Chaining Linux Commands for Efficiency">
 <meta name="twitter:description" content="One of the most powerful and elegant features of the Linux command line is the pipe, represented by the vertical bar: |.
@@ -107,7 +108,7 @@ In the simplest terms, the pipe takes the output of one command and feeds it dir
   "name": "The Power of the Pipe: Chaining Linux Commands for Efficiency",
   "description": "One of the most powerful and elegant features of the Linux command line is the pipe, represented by the vertical bar: |.\nIt looks simple, but this little symbol is the secret weapon for turning a handful of small, simple commands into a single, powerful tool.\nWhat Does the Pipe (|) Do? In the simplest terms, the pipe takes the output of one command and feeds it directly as the input to a second command.\n",
   "keywords": [
-    "arch", "ubuntu"
+    "pipe", "cli", "command"
   ],
   "articleBody": "One of the most powerful and elegant features of the Linux command line is the pipe, represented by the vertical bar: |.\nIt looks simple, but this little symbol is the secret weapon for turning a handful of small, simple commands into a single, powerful tool.\nWhat Does the Pipe (|) Do? In the simplest terms, the pipe takes the output of one command and feeds it directly as the input to a second command.\nThink of it like an assembly line:\n$$\\text{Command 1} \\quad \\rightarrow \\quad \\textbf{Output} \\quad \\rightarrow \\quad \\text{Pipe } (|) \\quad \\rightarrow \\quad \\textbf{Input} \\quad \\rightarrow \\quad \\text{Command 2}$$\nThe beauty of this is that instead of having to save the results of the first command to a temporary file, the data flows instantly from one utility to the next.\n3 Practical Examples Here are a few ways you can use the pipe to make your work on the command line faster and more efficient.\n1. Counting Files of a Specific Type Let’s say you want to quickly count all the .txt files in a directory.\nCommand 1 (ls -l): Lists all files and details. Command 2 (grep \".txt\"): Filters the list to only show lines containing .txt. Command 3 (wc -l): Counts the number of lines (which is the count of your files). ls -l | grep \".txt\" | wc -l Instead of manually counting, you get the exact number instantly!\n2. Finding a Running Program If you know a program is running, but you don’t want to sift through the entire process list, use the pipe to filter the results.\nCommand 1 (ps aux): Lists all running processes on the system. Command 2 (grep \"firefox\"): Filters that list to only show lines mentioning the string “firefox.” ps aux | grep \"firefox\" This is much quicker than scrolling through hundreds of lines of processes. (A quick tip: you might need to use grep -v grep to exclude the grep command itself from the output, but the basic command above is a great starting point!)\n3. Reading Large Files Easily The cat command displays the entire contents of a file all at once, which is fine for small files, but terrible for large ones. You can pipe the output to a pager like less.\nCommand 1 (cat /var/log/syslog): Tries to print the entire system log. Command 2 (less): Allows you to scroll and search through the output page-by-page. cat /var/log/syslog | less Now you can read that massive log file comfortably without it flying past your screen.\nConclusion The pipe (|) is an essential concept for anyone who uses the Linux command line. It embodies the core Unix philosophy: “Write programs that do one thing and do it well.”\nBy chaining these single-purpose commands together, you gain limitless flexibility and power, making complex tasks simple. Now go ahead and try piping a few commands together!\n",
   "wordCount" : "479",
@@ -279,10 +280,16 @@ In the simplest terms, the pipe takes the output of one command and feeds it dir
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://0xblogs.ashishkus.com/tags/arch/">Arch</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/ubuntu/">Ubuntu</a></li>
+      <li><a href="https://0xblogs.ashishkus.com/tags/pipe/">Pipe</a></li>
+      <li><a href="https://0xblogs.ashishkus.com/tags/cli/">Cli</a></li>
+      <li><a href="https://0xblogs.ashishkus.com/tags/command/">Command</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://0xblogs.ashishkus.com/posts/4/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Understanding Linux Filesystem Inode Tables</span>
+  </a>
   <a class="next" href="https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/">
     <span class="title">Next »</span>
     <br>
@@ -294,7 +301,7 @@ In the simplest terms, the pipe takes the output of one command and feeds it dir
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share The Power of the Pipe: Chaining Linux Commands for Efficiency on x"
-            href="https://x.com/intent/tweet/?text=The%20Power%20of%20the%20Pipe%3a%20Chaining%20Linux%20Commands%20for%20Efficiency&amp;url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2fa2cc786af0d345abcacce0e9c5097a6a%2f&amp;hashtags=arch%2cubuntu">
+            href="https://x.com/intent/tweet/?text=The%20Power%20of%20the%20Pipe%3a%20Chaining%20Linux%20Commands%20for%20Efficiency&amp;url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2fa2cc786af0d345abcacce0e9c5097a6a%2f&amp;hashtags=pipe%2ccli%2ccommand">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

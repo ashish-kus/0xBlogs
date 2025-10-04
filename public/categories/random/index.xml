@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Thoughts on 0xBlogs</title>
-    <link>https://0xblogs.ashishkus.com/categories/thoughts/</link>
-    <description>Recent content in Thoughts on 0xBlogs</description>
+    <title>Random on 0xBlogs</title>
+    <link>http://localhost:1313/categories/random/</link>
+    <description>Recent content in Random on 0xBlogs</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
     <lastBuildDate>Wed, 01 Oct 2025 01:16:51 +0530</lastBuildDate>
-    <atom:link href="https://0xblogs.ashishkus.com/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/random/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Power of the Pipe: Chaining Linux Commands for Efficiency</title>
-      <link>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</link>
+      <link>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</link>
       <pubDate>Wed, 01 Oct 2025 01:16:51 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</guid>
+      <guid>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</guid>
       <description>&lt;p&gt;One of the most powerful and elegant features of the Linux command line is the &lt;strong&gt;pipe&lt;/strong&gt;, represented by the vertical bar: &lt;code&gt;|&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;It looks simple, but this little symbol is the secret weapon for turning a handful of small, simple commands into a single, powerful tool.&lt;/p&gt;
 &lt;h2 id=&#34;what-does-the-pipe--do&#34;&gt;What Does the Pipe (&lt;code&gt;|&lt;/code&gt;) Do?&lt;/h2&gt;
@@ -21,9 +21,9 @@
     </item>
     <item>
       <title>Why Arch Is My Main Character Energy (But Ubuntu is Still the GOAT Starter Pack)</title>
-      <link>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
+      <link>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
       <pubDate>Tue, 30 Sep 2025 13:05:12 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
+      <guid>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
       <description>&lt;p&gt;Listen up, fam. We need to talk about my operating system journey. I started on Ubuntu, and honestly, &lt;strong&gt;no shade&lt;/strong&gt;. It&amp;rsquo;s the ultimate soft launch into the Linux world. But now? I&amp;rsquo;m firmly in my &lt;strong&gt;Arch Linux&lt;/strong&gt; era, and the vibes are just&amp;hellip; &lt;em&gt;chef&amp;rsquo;s kiss&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This isn&amp;rsquo;t a &amp;ldquo;flex culture&amp;rdquo; post. It&amp;rsquo;s about recognizing what each distro &lt;em&gt;slays&lt;/em&gt; at, and why I made the switch from a stable icon to the ultimate DIY challenge.&lt;/p&gt;</description>
     </item>

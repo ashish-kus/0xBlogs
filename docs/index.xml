@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 23:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 13:26:36 +0530</lastBuildDate>
     <atom:link href="https://0xblogs.ashishkus.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker CLI Cheat Sheet: More then you need to be PRO.</title>
+      <link>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</link>
+      <pubDate>Mon, 06 Oct 2025 13:26:36 +0530</pubDate>
+      <guid>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</guid>
+      <description>&lt;h1 id=&#34;docker-cli-cheat-sheet-complete-reference-guide&#34;&gt;Docker CLI Cheat Sheet: Complete Reference Guide&lt;/h1&gt;
+&lt;h2 id=&#34;container-lifecycle&#34;&gt;Container Lifecycle&lt;/h2&gt;
+&lt;h3 id=&#34;run-a-container-from-an-image&#34;&gt;Run a container from an image&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;OPTIONS&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; IMAGE &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;COMMAND&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Creates and starts a container from a specified IMAGE. This is the primary command for getting a container up and running, allowing you to execute an optional COMMAND inside it.&lt;/p&gt;
+&lt;h3 id=&#34;run-container-in-background&#34;&gt;Run container in background&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d IMAGE
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Runs the container in detached mode, meaning it runs in the background. The command prints the container ID and exits the terminal, allowing you to continue using your shell.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Understanding Linux Filesystem Inode Tables</title>
       <link>https://0xblogs.ashishkus.com/posts/4/</link>

@@ -2,26 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>0xBlogs</title>
-    <link>https://0xblogs.ashishkus.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 0xBlogs</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 23:47:32 +0530</lastBuildDate>
-    <atom:link href="https://0xblogs.ashishkus.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Oct 2025 13:26:36 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker CLI Cheat Sheet: More then you need to be PRO.</title>
+      <link>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</link>
+      <pubDate>Mon, 06 Oct 2025 13:26:36 +0530</pubDate>
+      <guid>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</guid>
+      <description>&lt;h1 id=&#34;docker-cli-cheat-sheet-complete-reference-guide&#34;&gt;Docker CLI Cheat Sheet: Complete Reference Guide&lt;/h1&gt;
+&lt;h2 id=&#34;container-lifecycle&#34;&gt;Container Lifecycle&lt;/h2&gt;
+&lt;h3 id=&#34;run-a-container-from-an-image&#34;&gt;Run a container from an image&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;OPTIONS&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; IMAGE &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;COMMAND&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Creates and starts a container from a specified IMAGE. This is the primary command for getting a container up and running, allowing you to execute an optional COMMAND inside it.&lt;/p&gt;
+&lt;h3 id=&#34;run-container-in-background&#34;&gt;Run container in background&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d IMAGE
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Runs the container in detached mode, meaning it runs in the background. The command prints the container ID and exits the terminal, allowing you to continue using your shell.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Understanding Linux Filesystem Inode Tables</title>
-      <link>https://0xblogs.ashishkus.com/posts/4/</link>
+      <link>http://localhost:1313/posts/4/</link>
       <pubDate>Sat, 04 Oct 2025 23:47:32 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/4/</guid>
+      <guid>http://localhost:1313/posts/4/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The inode table is one of the most fundamental data structures in Linux filesystems, yet it remains mysterious to many users. An inode, short for index node, is essentially a data structure that stores all the metadata about a file or directory except for two crucial pieces of information: the filename itself and the actual file content. This separation of concerns is what makes Unix-like filesystems elegant and efficient.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Docker in a Nutshell: Box It, Ship It, Forget It</title>
+      <link>http://localhost:1313/posts/e3e0502f6219a9c5edb5e39c4e70f043/</link>
+      <pubDate>Fri, 03 Oct 2025 04:40:53 +0530</pubDate>
+      <guid>http://localhost:1313/posts/e3e0502f6219a9c5edb5e39c4e70f043/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Why wrestle with messy setups when you can box your app, ship it anywhere, and sip tea while it just works? No more “it works on my machine” excuses. Let’s breeze through Docker—no deep dives, just the good stuff.&lt;/p&gt;
+&lt;p&gt;Modern applications are no longer simple. They rely on specific versions of libraries, frameworks, and configurations to run correctly. Setting up an application on one machine and then trying to run it on another often leads to the classic “it works on my machine” problem, frustrating both developers and operations teams.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Power of the Pipe: Chaining Linux Commands for Efficiency</title>
-      <link>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</link>
+      <link>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</link>
       <pubDate>Wed, 01 Oct 2025 01:16:51 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</guid>
+      <guid>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</guid>
       <description>&lt;p&gt;One of the most powerful and elegant features of the Linux command line is the &lt;strong&gt;pipe&lt;/strong&gt;, represented by the vertical bar: &lt;code&gt;|&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;It looks simple, but this little symbol is the secret weapon for turning a handful of small, simple commands into a single, powerful tool.&lt;/p&gt;
 &lt;h2 id=&#34;what-does-the-pipe--do&#34;&gt;What Does the Pipe (&lt;code&gt;|&lt;/code&gt;) Do?&lt;/h2&gt;
@@ -29,9 +52,9 @@
     </item>
     <item>
       <title>Why Arch Is My Main Character Energy (But Ubuntu is Still the GOAT Starter Pack)</title>
-      <link>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
+      <link>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
       <pubDate>Tue, 30 Sep 2025 13:05:12 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
+      <guid>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
       <description>&lt;p&gt;Listen up, fam. We need to talk about my operating system journey. I started on Ubuntu, and honestly, &lt;strong&gt;no shade&lt;/strong&gt;. It&amp;rsquo;s the ultimate soft launch into the Linux world. But now? I&amp;rsquo;m firmly in my &lt;strong&gt;Arch Linux&lt;/strong&gt; era, and the vibes are just&amp;hellip; &lt;em&gt;chef&amp;rsquo;s kiss&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This isn&amp;rsquo;t a &amp;ldquo;flex culture&amp;rdquo; post. It&amp;rsquo;s about recognizing what each distro &lt;em&gt;slays&lt;/em&gt; at, and why I made the switch from a stable icon to the ultimate DIY challenge.&lt;/p&gt;</description>
     </item>

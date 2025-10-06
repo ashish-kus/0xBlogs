@@ -2,62 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://0xblogs.ashishkus.com/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cheatsheet/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cheatsheet/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/containers/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devops/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/devops/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/docker/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/docker-cli/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-06T13:26:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/blog/</loc>
+    <loc>http://localhost:1313/categories/deepdive/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/categories/</loc>
+    <loc>http://localhost:1313/tags/filesystems/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/categories/deepdive/</loc>
+    <loc>http://localhost:1313/tags/inode/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/filesystems/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/inode/</loc>
+    <loc>http://localhost:1313/posts/4/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/linux/</loc>
-    <lastmod>2025-10-04T23:47:32+05:30</lastmod>
+    <loc>http://localhost:1313/posts/e3e0502f6219a9c5edb5e39c4e70f043/</loc>
+    <lastmod>2025-10-03T04:40:53+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/posts/</loc>
-    <lastmod>2025-10-04T23:47:32+05:30</lastmod>
-  </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/</loc>
-    <lastmod>2025-10-04T23:47:32+05:30</lastmod>
-  </url><url>
-    <loc>https://0xblogs.ashishkus.com/posts/4/</loc>
-    <lastmod>2025-10-04T23:47:32+05:30</lastmod>
-  </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/cli/</loc>
+    <loc>http://localhost:1313/tags/cli/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/command/</loc>
+    <loc>http://localhost:1313/tags/command/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/pipe/</loc>
+    <loc>http://localhost:1313/tags/pipe/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/categories/random/</loc>
+    <loc>http://localhost:1313/categories/random/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
+    <loc>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/arch/</loc>
+    <loc>http://localhost:1313/tags/arch/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/tags/ubuntu/</loc>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
+    <loc>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://0xblogs.ashishkus.com/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

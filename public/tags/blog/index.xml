@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on 0xBlogs</title>
-    <link>https://0xblogs.ashishkus.com/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on 0xBlogs</description>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
     <lastBuildDate>Sat, 04 Oct 2025 23:47:32 +0530</lastBuildDate>
-    <atom:link href="https://0xblogs.ashishkus.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Linux Filesystem Inode Tables</title>
-      <link>https://0xblogs.ashishkus.com/posts/4/</link>
+      <link>http://localhost:1313/posts/4/</link>
       <pubDate>Sat, 04 Oct 2025 23:47:32 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/4/</guid>
+      <guid>http://localhost:1313/posts/4/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;The inode table is one of the most fundamental data structures in Linux filesystems, yet it remains mysterious to many users. An inode, short for index node, is essentially a data structure that stores all the metadata about a file or directory except for two crucial pieces of information: the filename itself and the actual file content. This separation of concerns is what makes Unix-like filesystems elegant and efficient.&lt;/p&gt;</description>
     </item>

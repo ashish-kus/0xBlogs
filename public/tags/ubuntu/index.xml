@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ubuntu on 0xBlogs</title>
-    <link>https://0xblogs.ashishkus.com/tags/ubuntu/</link>
+    <link>http://localhost:1313/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on 0xBlogs</description>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
     <lastBuildDate>Tue, 30 Sep 2025 13:05:12 +0530</lastBuildDate>
-    <atom:link href="https://0xblogs.ashishkus.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Arch Is My Main Character Energy (But Ubuntu is Still the GOAT Starter Pack)</title>
-      <link>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
+      <link>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</link>
       <pubDate>Tue, 30 Sep 2025 13:05:12 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
+      <guid>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</guid>
       <description>&lt;p&gt;Listen up, fam. We need to talk about my operating system journey. I started on Ubuntu, and honestly, &lt;strong&gt;no shade&lt;/strong&gt;. It&amp;rsquo;s the ultimate soft launch into the Linux world. But now? I&amp;rsquo;m firmly in my &lt;strong&gt;Arch Linux&lt;/strong&gt; era, and the vibes are just&amp;hellip; &lt;em&gt;chef&amp;rsquo;s kiss&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This isn&amp;rsquo;t a &amp;ldquo;flex culture&amp;rdquo; post. It&amp;rsquo;s about recognizing what each distro &lt;em&gt;slays&lt;/em&gt; at, and why I made the switch from a stable icon to the ultimate DIY challenge.&lt;/p&gt;</description>
     </item>

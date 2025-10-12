@@ -2,6 +2,7 @@
 date = '{{ .Date }}'
 draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description: ""
 slug = '{{ .File.UniqueID }}'  
 categories = ["General"]
 tags = ["blog"]
@@ -11,4 +12,5 @@ tags = ["blog"]
   alt = "0xBlogs default cover image"
   caption = "Cover image for 0xBlogs articles"
   relative = true
+summary: ""
 +++

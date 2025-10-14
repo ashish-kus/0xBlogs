@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Qemu on 0xBlogs</title>
-    <link>http://localhost:1313/tags/qemu/</link>
+    <link>https://0xblogs.ashishkus.com/tags/qemu/</link>
     <description>Recent content in Qemu on 0xBlogs</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
     <lastBuildDate>Sun, 12 Oct 2025 04:27:19 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://0xblogs.ashishkus.com/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)</title>
-      <link>http://localhost:1313/posts/2a597044be8d0d1de091834211c55707/</link>
+      <link>https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/</link>
       <pubDate>Sun, 12 Oct 2025 04:27:19 +0530</pubDate>
-      <guid>http://localhost:1313/posts/2a597044be8d0d1de091834211c55707/</guid>
+      <guid>https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/</guid>
       <description>&lt;h1 id=&#34;setting-up-a-windows-11-vm-with-virt-manager-without-losing-your-mind&#34;&gt;Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.&lt;/p&gt;

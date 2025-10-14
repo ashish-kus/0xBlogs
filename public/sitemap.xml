@@ -2,119 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://0xblogs.ashishkus.com/</loc>
     <lastmod>2025-10-14T14:42:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://0xblogs.ashishkus.com/posts/</loc>
     <lastmod>2025-10-14T14:42:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-10-14T14:42:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2025-10-14T14:42:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</loc>
-    <lastmod>2025-10-14T14:42:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-14T14:42:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-10-14T14:42:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kvm/</loc>
+    <loc>https://0xblogs.ashishkus.com/categories/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/qemu/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/kvm/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/random/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/qemu/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2a597044be8d0d1de091834211c55707/</loc>
+    <loc>https://0xblogs.ashishkus.com/categories/random/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virt-manager/</loc>
+    <loc>https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtio/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtualization/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/virt-manager/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/windows/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/virtio/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/windows11/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/virtualization/</loc>
     <lastmod>2025-10-12T04:27:19+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cheatsheet/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/windows/</loc>
+    <lastmod>2025-10-12T04:27:19+05:30</lastmod>
+  </url><url>
+    <loc>https://0xblogs.ashishkus.com/tags/windows11/</loc>
+    <lastmod>2025-10-12T04:27:19+05:30</lastmod>
+  </url><url>
+    <loc>https://0xblogs.ashishkus.com/categories/cheatsheet/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cheatsheet/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/cheatsheet/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/containers/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/containers/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/devops/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/devops/</loc>
+    <loc>https://0xblogs.ashishkus.com/categories/devops/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/docker/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker-cli/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/docker-cli/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</loc>
+    <loc>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</loc>
     <lastmod>2025-10-06T13:26:36+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/deepdive/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/blog/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/filesystems/</loc>
+    <loc>https://0xblogs.ashishkus.com/categories/deepdive/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/inode/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/filesystems/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/inode/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/4/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/linux/</loc>
     <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/e3e0502f6219a9c5edb5e39c4e70f043/</loc>
-    <lastmod>2025-10-03T04:40:53+05:30</lastmod>
+    <loc>https://0xblogs.ashishkus.com/posts/4/</loc>
+    <lastmod>2025-10-04T23:47:32+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cli/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/cli/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/command/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/command/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pipe/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/pipe/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
+    <loc>https://0xblogs.ashishkus.com/posts/a2cc786af0d345abcacce0e9c5097a6a/</loc>
     <lastmod>2025-10-01T01:16:51+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/arch/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/arch/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ubuntu/</loc>
+    <loc>https://0xblogs.ashishkus.com/tags/ubuntu/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
+    <loc>https://0xblogs.ashishkus.com/posts/ffd8bd1512001a08fb1f9279a6caaab6/</loc>
     <lastmod>2025-09-30T13:05:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://0xblogs.ashishkus.com/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://0xblogs.ashishkus.com/series/</loc>
   </url>
 </urlset>

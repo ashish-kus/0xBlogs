@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 23:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 14:42:41 +0530</lastBuildDate>
     <atom:link href="https://0xblogs.ashishkus.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actions: Turns Out It’s Not Witchcraft</title>
+      <link>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</link>
+      <pubDate>Tue, 14 Oct 2025 14:42:41 +0530</pubDate>
+      <guid>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</guid>
+      <description>An overview of githb actions</description>
+    </item>
     <item>
       <title>Understanding Linux Filesystem Inode Tables</title>
       <link>https://0xblogs.ashishkus.com/posts/4/</link>

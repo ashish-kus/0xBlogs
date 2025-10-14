@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Sun, 12 Oct 2025 04:27:19 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 14:42:41 +0530</lastBuildDate>
     <atom:link href="https://0xblogs.ashishkus.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actions: Turns Out It’s Not Witchcraft</title>
+      <link>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</link>
+      <pubDate>Tue, 14 Oct 2025 14:42:41 +0530</pubDate>
+      <guid>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</guid>
+      <description>An overview of githb actions</description>
+    </item>
     <item>
       <title>Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)</title>
       <link>https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/</link>

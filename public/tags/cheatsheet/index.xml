@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CheatSheet on 0xBlogs</title>
-    <link>https://0xblogs.ashishkus.com/tags/cheatsheet/</link>
+    <link>http://localhost:1313/tags/cheatsheet/</link>
     <description>Recent content in CheatSheet on 0xBlogs</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
     <lastBuildDate>Mon, 06 Oct 2025 13:26:36 +0530</lastBuildDate>
-    <atom:link href="https://0xblogs.ashishkus.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker CLI Cheat Sheet: More then you need to be PRO.</title>
-      <link>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</link>
+      <link>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</link>
       <pubDate>Mon, 06 Oct 2025 13:26:36 +0530</pubDate>
-      <guid>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</guid>
+      <guid>http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</guid>
       <description>&lt;h1 id=&#34;docker-cli-cheat-sheet-complete-reference-guide&#34;&gt;Docker CLI Cheat Sheet: Complete Reference Guide&lt;/h1&gt;
 &lt;h2 id=&#34;container-lifecycle&#34;&gt;Container Lifecycle&lt;/h2&gt;
 &lt;h3 id=&#34;run-a-container-from-an-image&#34;&gt;Run a container from an image&lt;/h3&gt;

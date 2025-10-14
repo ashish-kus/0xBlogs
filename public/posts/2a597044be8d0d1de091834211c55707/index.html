@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) | 0xBlogs</title>
 <meta name="keywords" content="Windows, Windows11, KVM, Virt-Manager, Virtualization, Qemu, virtio">
 <meta name="description" content="Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)
@@ -12,16 +12,16 @@ Introduction
 So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.
 The beauty of what we are doing today is that we&rsquo;re going to use VirtIO drivers (which are way faster than the default emulated hardware) and add some Hyper-V enlightenments to make Windows think it&rsquo;s running on native Microsoft hypervisor technology. This makes everything smoother and faster.">
 <meta name="author" content="Ashish Kushwaha">
-<link rel="canonical" href="https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/">
+<link rel="canonical" href="http://localhost:1313/posts/2a597044be8d0d1de091834211c55707/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://0xblogs.ashishkus.com/favicon.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://0xblogs.ashishkus.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://0xblogs.ashishkus.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://0xblogs.ashishkus.com/apple-touch-icon.png">
-<link rel="mask-icon" href="https://0xblogs.ashishkus.com/favicon.png">
+<link rel="icon" href="http://localhost:1313/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/favicon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2a597044be8d0d1de091834211c55707/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,85 +58,7 @@ The beauty of what we are doing today is that we&rsquo;re going to use VirtIO dr
         }
 
     </style>
-</noscript><meta property="og:url" content="https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/">
-  <meta property="og:site_name" content="0xBlogs">
-  <meta property="og:title" content="Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)">
-  <meta property="og:description" content="Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) Introduction So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.
-The beauty of what we are doing today is that we’re going to use VirtIO drivers (which are way faster than the default emulated hardware) and add some Hyper-V enlightenments to make Windows think it’s running on native Microsoft hypervisor technology. This makes everything smoother and faster.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-10-12T04:27:19+05:30">
-    <meta property="article:modified_time" content="2025-10-12T04:27:19+05:30">
-    <meta property="article:tag" content="Windows">
-    <meta property="article:tag" content="Windows11">
-    <meta property="article:tag" content="KVM">
-    <meta property="article:tag" content="Virt-Manager">
-    <meta property="article:tag" content="Virtualization">
-    <meta property="article:tag" content="Qemu">
-    <meta property="og:image" content="https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/images/6-cover.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/images/6-cover.png">
-<meta name="twitter:title" content="Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)">
-<meta name="twitter:description" content="Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)
-Introduction
-So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.
-The beauty of what we are doing today is that we&rsquo;re going to use VirtIO drivers (which are way faster than the default emulated hardware) and add some Hyper-V enlightenments to make Windows think it&rsquo;s running on native Microsoft hypervisor technology. This makes everything smoother and faster.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://0xblogs.ashishkus.com/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)",
-      "item": "https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)",
-  "name": "Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)",
-  "description": "Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) Introduction So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.\nThe beauty of what we are doing today is that we\u0026rsquo;re going to use VirtIO drivers (which are way faster than the default emulated hardware) and add some Hyper-V enlightenments to make Windows think it\u0026rsquo;s running on native Microsoft hypervisor technology. This makes everything smoother and faster.\n",
-  "keywords": [
-    "Windows", "Windows11", "KVM", "Virt-Manager", "Virtualization", "Qemu", "virtio"
-  ],
-  "articleBody": "Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) Introduction So you want to run Windows 11 in a virtual machine on Linux? Excellent choice! Whether you need it for testing, running that one annoying Windows-only app, or just want to see what Microsoft is up to these days, this guide will walk you through creating a properly optimized Windows 11 VM using virt-manager.\nThe beauty of what we are doing today is that we’re going to use VirtIO drivers (which are way faster than the default emulated hardware) and add some Hyper-V enlightenments to make Windows think it’s running on native Microsoft hypervisor technology. This makes everything smoother and faster.\nRequired Downloads and Setup 1. Virtual Machine Manager (virt-manager) This is what we’ll use to create and manage our virtual machines. It sits on top of QEMU/KVM, which does the actual virtualization magic, and provides a nice UI so you don’t have to memorize terminal incantations. To starts the virtualization daemon that virt-manager uses behind the scenes to control VMs. Add user to that group. One of the most important part is gives your VMs internet access — basically a mini router inside your system.\nsudo pacman -S virt-manager qemu-desktop dnsmasq vde2 bridge-utils openbsd-netcat sudo systemctl enable --now libvirtd.service sudo usermod -aG libvirt $USER sudo virsh net-start default sudo virsh net-autostart default 2. Windows 11 ISO Head over to the official Microsoft download page and grab the Windows 11 ISO. Yes, it’s free to download — the activation popup comes later to remind you of capitalism. This ISO is what you’ll “insert” into your virtual DVD drive to install Windows inside the VM.\n3. VirtIO Drivers ISO Download this from the Fedora Project VirtIO Drivers page These are not optional — they’re the drivers that make Windows actually usable inside KVM. Without them, you’ll experience prehistoric speeds and missing devices. Yes it will take 1000 years.\n4. Spice Guest Tools (for post-install) Download from spice-space.org. This gives you proper display drivers, clipboard sharing, and other quality-of-life features\n5. Setting up TPM 2.0 (for Windows 11) Windows 11 demands TPM 2.0 and Secure Boot — which are security features for encryption, BitLocker, and secure authentication. In the VM world, TPM is emulated — meaning we fake it (and Windows is fine with that).\nsudo pacman -S swtpm edk2-ovmf swtpm → Software TPM emulator; this tricks Windows into thinking your VM has a real TPM chip. edk2-ovmf → Provides UEFI firmware (needed for Secure Boot \u0026 modern installations). Once installed, you can enable TPM 2.0 and UEFI from the “Overview” tab in virt-manager when editing your VM settings. System Preparation Before we dive in, make sure virtualization is actually enabled: BIOS Settings: Boot into your BIOS/UEFI and enable virtualization Look for Intel VT-x or AMD-V (different names, same idea) Sometimes it’s hiding under “SVM Mode” or “Virtualization Technology” Why? Because your CPU has special hardware acceleration for VMs, and you definitely want to use it\nCreating the VM: The Fun Setup Part Initial Setup (Pre installations) Open virt-manager and create a new VM, but here’s the trick: don’t click “Finish” yet!. Check the box that says “Customize configuration before install”. This is crucial because we need to tweak a bunch of settings before Windows even boots\nEnable XML editing (you’ll need this later):\nGo to Edit → Preferences → Enable XML editing. Don’t worry, you won’t need to write XML from scratch. We’re just copying and pasting some magic incantations.\nOverview Ensure Chipset: Q35 and Firmwre: UEFI: Q35 is the modern chipset emulation that supports PCIe properly, and UEFI is what Windows 11 expects (it won’t even install with legacy BIOS). If you have an AMD CPU, remove the line. That’s an Intel-only feature. Find the section and add this , This gives Windows access to a Hyper-V synthetic timer. CPU Enable host-passthrough : Instead of emulating a generic CPU, this passes through your actual CPU model to the VM. Windows gets to see and use all your CPU’s fancy features, which means better performance and compatibility. Storage Setup Disk bus: VirtIO: Way faster than emulated SATA (we’re talking 5-10x faster I/O). Cache mode: none: Ensures data integrity by bypassing the host’s page cache. Discard mode : Allows TRIM commands to work, so deleted files actually free up space on your host drive. Mount the VirtIO Driver ISO Add Hardware Browse to your virtio-win.iso and Device type: CDROM device : Windows has no idea what VirtIO devices are, so we need to load drivers during installation. This ISO contains all those drivers. Network Configuration Device model: virtio : Same reason as the disk—VirtIO network is dramatically faster than emulated Intel or Realtek cards. Other Configuration Add Guest Agent Channel: Add Hardware -\u003e Channel -\u003e Name: org.qemu.guest_agent.0 This lets your host and guest communicate for things like graceful shutdowns and status reporting. Remove the Tablet device : It’s redundant and we don’t need it. Enable TPM : Type: Emulated, Version 2.0. Windows 11 literally refuses to install without a TPM. This emulates one so Microsoft’s installer stops complaining. Windows Installation: The Obstacle Course Disk Partitioning When you get to the disk selection screen, Windows will act confused and claim it can’t find any disks. Don’t panic!\nClick “Load driver” Browse to E:\\viostor\\w11\\amd64 (or whatever drive letter the VirtIO ISO got) Click OK Your disk should magically appear now! Optional but recommended Also load the network driver the same way from E:\\NetKVM\\w11\\amd64. You can do this now or after installation. Bypassing Microsoft Account Requirement Microsoft really wants you to use a Microsoft account. We’re going to politely decline:\nWhen installation becomes graphical and asks for your region, press Shift+F10 Type: OOBE\\BYPASSNRO Wait for the automatic restart This command tells Windows to run the Out-of-Box Experience with Network Requirement Overrides disabled. Fancy name, simple result: you get a “I don’t have internet” option. Post-Installation: Making It Actually Good Once Windows is up and running, it’s time to make it fast and fully functional.\nOpen File Explorer → navigate to the VirtIO CD (usually E:) Double-click virtio-win-gt-x64.msi Follow the prompts and install everything\n💡 What this does: This package installs all the essential VirtIO drivers — storage, network, and balloon (for dynamic memory), plus the QEMU guest agent. Together, they make your VM feel like real hardware instead of an emulation museum exhibit.\nOnce done, eject the VirtIO CD from your VM settings — you won’t need it again.\nSure — here’s a cleaner, more engaging rewrite with a short explanation of why Spice matters:\nInstall Spice Guest Tools The secret sauce that makes your Windows VM actually pleasant to use.\nRun the Spice Guest Tools installer you downloaded earlier from spice-space.org Follow the on-screen setup — quick and painless 💡 Why Spice is important: Without Spice, your VM feels like remote-controlling a computer over a bad Wi-Fi connection. With it, everything becomes seamless — smooth graphics, fast mouse movement, and proper host–guest integration.\nAfter installation, you’ll get:\nAuto-adjusting display resolution (resize the VM window, and Windows adapts instantly) Bidirectional clipboard (copy/paste between host and VM) Better mouse integration (no more cursor lag or capture issues) Drag-and-drop file transfer between host and guest Basically, Spice turns your VM from “usable” to “actually enjoyable.”\nSure! Here’s a smoother, more natural paragraph-style version:\nOptional: Enable 3D Acceleration If you want your Windows VM to feel a bit more alive — with smoother animations and faster window rendering — enabling 3D acceleration is worth it. First, shut down your VM completely. Then, open its settings in virt-manager and under the Display section, select Spice, set the Listen Type to None, and enable OpenGL. Next, go to the Video section, switch the model to Virtio, and check the box for 3D acceleration.\n💡 This allows Windows to tap into your host’s GPU for OpenGL rendering. You won’t get gaming-level performance, but the desktop experience becomes noticeably more fluid and responsive — perfect for daily use.\nOptimizing Windows 11: Because It Needs Help Fresh Windows 11 installs come loaded with background services, telemetry, and unwanted features. Here’s how to make it lean and VM-friendly.\nDisable Copilot Via Settings:\nSettings → Personalization → Copilot → Disable Via Group Policy (full removal):\nWin + R → gpedit.msc User Configuration → Administrative Templates → Windows Components → Windows Copilot Double-click “Turn off Windows Copilot”, select Enabled, hit Apply.\nDisable SuperFetch (SysMain) Preloads apps into RAM — wastes resources in VMs.\nVia Services:\nWin + R → services.msc Find SysMain → Properties → Startup type: Disabled → Stop.\nVia Command Line:\nsc stop \"SysMain\" \u0026 sc config \"SysMain\" start=disabled Disable Visual Effects Search → \"Adjust the appearance and performance of Windows\" Select → \"Adjust for best performance\" Clean Up Startup Programs Via Task Manager:\nCtrl + Shift + Esc → Startup tab → Disable unnecessary items Reduce Tracking \u0026 Telemetry Disable Activity History:\nSettings → Privacy \u0026 Security → Activity History → Uncheck \"Store my activity history\" Disable Speech \u0026 Diagnostics:\nSettings → Privacy \u0026 Security → Speech → Turn off Settings → Privacy \u0026 Security → Diagnostics \u0026 Feedback → Disable optional data Clean Start Menu:\nSettings → Personalization → Start → Turn off recommendations You’re Done Congratulations! You now have a properly configured, optimized Windows 11 VM that should run significantly better than a default installation. It won’t match bare metal performance, but it’ll be respectable enough for most tasks. A few final tips:\nSnapshots are your friend: Take one now before you install anything else Allocate RAM wisely: Windows 11 wants at least 4GB, but 8GB is comfortable CPU cores: Give it at least 2 cores, 4 is better if you can spare them Dynamic memory: If using the balloon driver, you can configure memory to expand/contract based on need Now go forth and use Windows when you absolutely have to, but from the comfort of your Linux system!\n💡 Remember: If anything breaks, you have snapshots. Right? …Right? ",
-  "wordCount" : "1665",
-  "inLanguage": "en",
-  "image":"https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/images/6-cover.png","datePublished": "2025-10-12T04:27:19+05:30",
-  "dateModified": "2025-10-12T04:27:19+05:30",
-  "author":{
-    "@type": "Person",
-    "name": "Ashish Kushwaha"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://0xblogs.ashishkus.com/posts/2a597044be8d0d1de091834211c55707/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "0xBlogs",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://0xblogs.ashishkus.com/favicon.png"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -154,7 +76,7 @@ The beauty of what we are doing today is that we&rsquo;re going to use VirtIO dr
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://0xblogs.ashishkus.com/" accesskey="h" title="0xBlogs (Alt + H)">0xBlogs</a>
+            <a href="http://localhost:1313/" accesskey="h" title="0xBlogs (Alt + H)">0xBlogs</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -180,17 +102,17 @@ The beauty of what we are doing today is that we&rsquo;re going to use VirtIO dr
         </div>
         <ul id="menu">
             <li>
-                <a href="https://0xblogs.ashishkus.com/categories/" title="Categories">
+                <a href="http://localhost:1313/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://0xblogs.ashishkus.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://0xblogs.ashishkus.com/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -201,7 +123,7 @@ The beauty of what we are doing today is that we&rsquo;re going to use VirtIO dr
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://0xblogs.ashishkus.com/">Home</a>&nbsp;»&nbsp;<a href="https://0xblogs.ashishkus.com/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind)
     </h1>
@@ -212,7 +134,7 @@ The beauty of what we are doing today is that we&rsquo;re going to use VirtIO dr
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="https://0xblogs.ashishkus.com/images/6-cover.png" alt="0xBlogs default cover image">
+        <img loading="eager" src="http://localhost:1313/images/6-cover.png" alt="0xBlogs default cover image">
         <figcaption>Setting Up a Windows 11 VM with virt-manager, kvm, qemu, virtio and spice driver</figcaption>
 </figure><div class="toc">
     <details >
@@ -477,16 +399,21 @@ A few final tips:</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://0xblogs.ashishkus.com/tags/windows/">Windows</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/windows11/">Windows11</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/kvm/">KVM</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/virt-manager/">Virt-Manager</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/virtualization/">Virtualization</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/qemu/">Qemu</a></li>
-      <li><a href="https://0xblogs.ashishkus.com/tags/virtio/">Virtio</a></li>
+      <li><a href="http://localhost:1313/tags/windows/">Windows</a></li>
+      <li><a href="http://localhost:1313/tags/windows11/">Windows11</a></li>
+      <li><a href="http://localhost:1313/tags/kvm/">KVM</a></li>
+      <li><a href="http://localhost:1313/tags/virt-manager/">Virt-Manager</a></li>
+      <li><a href="http://localhost:1313/tags/virtualization/">Virtualization</a></li>
+      <li><a href="http://localhost:1313/tags/qemu/">Qemu</a></li>
+      <li><a href="http://localhost:1313/tags/virtio/">Virtio</a></li>
     </ul>
 <nav class="paginav">
-  <a class="next" href="https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/">
+  <a class="prev" href="http://localhost:1313/posts/b330b5a41ef22f17d5e73f02df1b5b1a/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>GitHub Actions: Turns Out It’s Not Witchcraft</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/d5ad17a7c7a95be35679fb94b2ab25e3/">
     <span class="title">Next »</span>
     <br>
     <span>Docker CLI Cheat Sheet: More then you need to be PRO.</span>
@@ -497,7 +424,7 @@ A few final tips:</p>
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on x"
-            href="https://x.com/intent/tweet/?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f&amp;hashtags=Windows%2cWindows11%2cKVM%2cVirt-Manager%2cVirtualization%2cQemu%2cvirtio">
+            href="https://x.com/intent/tweet/?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f&amp;hashtags=Windows%2cWindows11%2cKVM%2cVirt-Manager%2cVirtualization%2cQemu%2cvirtio">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -506,7 +433,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f&amp;title=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;summary=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;source=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f&amp;title=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;summary=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -515,7 +442,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f&title=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29">
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f&title=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -524,7 +451,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on facebook"
-            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
@@ -533,7 +460,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on whatsapp"
-            href="https://api.whatsapp.com/send?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29%20-%20https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
+            href="https://api.whatsapp.com/send?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -542,7 +469,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on telegram"
-            href="https://telegram.me/share/url?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;url=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
+            href="https://telegram.me/share/url?text=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -551,7 +478,7 @@ A few final tips:</p>
     </li>
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Setting Up a Windows 11 VM with virt-manager (Without Losing Your Mind) on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&u=https%3a%2f%2f0xblogs.ashishkus.com%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
+            href="https://news.ycombinator.com/submitlink?t=Setting%20Up%20a%20Windows%2011%20VM%20with%20virt-manager%20%28Without%20Losing%20Your%20Mind%29&u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2a597044be8d0d1de091834211c55707%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path

@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Mon, 06 Oct 2025 13:26:36 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 14:42:41 +0530</lastBuildDate>
     <atom:link href="https://0xblogs.ashishkus.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actions: Turns Out It’s Not Witchcraft</title>
+      <link>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</link>
+      <pubDate>Tue, 14 Oct 2025 14:42:41 +0530</pubDate>
+      <guid>https://0xblogs.ashishkus.com/posts/b330b5a41ef22f17d5e73f02df1b5b1a/</guid>
+      <description>An overview of githb actions</description>
+    </item>
     <item>
       <title>Docker CLI Cheat Sheet: More then you need to be PRO.</title>
       <link>https://0xblogs.ashishkus.com/posts/d5ad17a7c7a95be35679fb94b2ab25e3/</link>

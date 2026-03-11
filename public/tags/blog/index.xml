@@ -4,11 +4,18 @@
     <title>Blog on 0xBlogs</title>
     <link>https://0xblogs.ashishkus.com/tags/blog/</link>
     <description>Recent content in Blog on 0xBlogs</description>
-    <generator>Hugo -- 0.151.0</generator>
-    <language>en</language>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
     <copyright>0xBlogs - Ashish-Kus </copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 23:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 10:46:17 +0530</lastBuildDate>
     <atom:link href="https://0xblogs.ashishkus.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DBA: anyone can get started</title>
+      <link>https://0xblogs.ashishkus.com/posts/e7edb33a3d916ac63b45f55c841f773c/</link>
+      <pubDate>Wed, 11 Mar 2026 10:46:17 +0530</pubDate>
+      <guid>https://0xblogs.ashishkus.com/posts/e7edb33a3d916ac63b45f55c841f773c/</guid>
+      <description>DBA roles and responsibilities.</description>
+    </item>
     <item>
       <title>Understanding Linux Filesystem Inode Tables</title>
       <link>https://0xblogs.ashishkus.com/posts/4/</link>

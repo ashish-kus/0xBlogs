@@ -60,7 +60,7 @@ The inode table is one of the most fundamental data structures in Linux filesyst
   <meta property="og:site_name" content="0xBlogs">
   <meta property="og:title" content="Understanding Linux Filesystem Inode Tables">
   <meta property="og:description" content="Introduction The inode table is one of the most fundamental data structures in Linux filesystems, yet it remains mysterious to many users. An inode, short for index node, is essentially a data structure that stores all the metadata about a file or directory except for two crucial pieces of information: the filename itself and the actual file content. This separation of concerns is what makes Unix-like filesystems elegant and efficient.">
-  <meta property="og:locale" content="en">
+  <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-04T23:47:32+05:30">
@@ -353,7 +353,7 @@ The inode table is one of the most fundamental data structures in Linux filesyst
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Find directories with most files</span>
 </span></span><span class="line"><span class="cl">$ sudo find /mnt/data -xdev -type d -exec sh -c <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s1">&#39;echo $(ls -A1 &#34;$1&#34; | wc -l) &#34;$1&#34;&#39;</span> _ <span class="o">{}</span> <span class="se">\;</span> <span class="p">|</span> sort -rn <span class="p">|</span> head -5
+</span></span></span><span class="line"><span class="cl">  <span class="s1">&#39;echo $(ls -A1 &#34;$1&#34; | wc -l) &#34;$1&#34;&#39;</span> _ <span class="o">{}</span> <span class="se">\;</span> <span class="p">|</span> sort -rn <span class="p">|</span> head -5
 </span></span><span class="line"><span class="cl"><span class="m">45678</span> /mnt/data/mail/user1/.Trash
 </span></span><span class="line"><span class="cl"><span class="m">34521</span> /mnt/data/cache/sessions
 </span></span><span class="line"><span class="cl"><span class="m">23456</span> /mnt/data/tmp/uploads
